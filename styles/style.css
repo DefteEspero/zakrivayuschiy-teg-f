@@ -86,6 +86,7 @@
   .section__sprint-image-label {
     text-stroke: 1px var(--lebele-text-stroke-color);
     -webkit-text-stroke: 1px var(--lebele-text-stroke-color);
+    text-shadow: 1px 1px 1px var(--text-color);
   }
 }
 
@@ -165,7 +166,6 @@
   border: var(--block-border);
   background-color: var(--bg-color);
   color: var(--text-color);
-  overflow: transparent;
   transition: box-shadow 0.3s ease;
 }
 
