@@ -23,7 +23,7 @@
 /* хэдер */
 
 .header {
-  margin-block: var(--header-ofsetY);
+  margin-block: var(--header-offsetY);
   text-align: center;
   border: var(--block-border);
   background-color: var(--bg-color);
@@ -165,7 +165,7 @@
   padding: 11px 37px;
   border: var(--block-border);
   background-color: var(--bg-color);
-  color: var(--text-color); 
+  color: var(--text-color);
   transition: box-shadow 0.3s ease;
 }
 
