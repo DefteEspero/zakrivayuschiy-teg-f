@@ -100,19 +100,19 @@
 }
 
 .section__sprint-card:nth-of-type(2) .section__sprint-picture {
-  filter: contrast(130%);
+  filter: saturate(30%);
 }
 
 .section__sprint-card:nth-of-type(3) .section__sprint-picture {
-  filter: saturate(30%) invert(1) sepia(140%);
+  filter: hue-rotate(-10deg) contrast(200%);
 }
 
 .section__sprint-card:nth-of-type(4) .section__sprint-picture {
-  filter: hue-rotate(30deg) drop-shadow(2);
+  filter: hue-rotate(30deg);
 }
 
 .section__sprint-card:nth-of-type(5) .section__sprint-picture {
-  filter: invert(1) contrast(50%);
+  filter: invert(1);
 }
 
 .section__sprint-card:nth-of-type(6) .section__sprint-picture {
@@ -120,7 +120,7 @@
 }
 
 .section__sprint-card:nth-of-type(7) .section__sprint-picture {
-  filter: blur(0.3rem) brightness(1.2) hue-rotate(210deg);
+  filter: blur(0.3rem);
 }
 
 .section__sprint-card:nth-of-type(8) .section__sprint-picture {
