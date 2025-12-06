@@ -11,8 +11,7 @@
     repeating-linear-gradient(to bottom, #d3d3d3 0,#d3d3d3 2px, transparent 2px, transparent 4px),
     linear-gradient(to bottom, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
   /* размер блоков */
-  --block-width: clamp(320px, 48.7vw, 700px);
-  --block-height: clamp(320px, 100vh, 370px);
+  --block-width: clamp(320px, 50vw, 700px);
   --block-ofsetX: auto;
   --block-ofsetY: 0 50px;
   --block-border: solid 2px #000;

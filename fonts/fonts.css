@@ -19,7 +19,7 @@
 
 @supports (font-variation-settings: normal) {
 	.page {
-		font-weight: normal;
+		font-weight: 410, 715;
 	}
 
 	.section__sprint-title {

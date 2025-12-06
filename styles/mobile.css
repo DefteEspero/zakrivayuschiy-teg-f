@@ -1,9 +1,11 @@
-@media (320px <= width <= 768px)  {
+@media (320px <= width <= 768px) {
 
   .header {
     width: 100%;
     padding-block: 120px;
   }
+
+  /* блок с контентом */
 
   .section__sprint-card {
     width: 100%;
@@ -18,6 +20,8 @@
     gap: 5px;
   }
 
+  /* футер */
+
   .footer__button {
     display: flex;
     flex-direction: column;
@@ -30,6 +34,8 @@
     height: 28px;
   }
 
+  /* открываюшееся окно */
+
   .dialog {
     padding: 0;
   }
@@ -38,11 +44,15 @@
     word-spacing: 3.1px;
     margin: 23px 25px 25px 25px;
     padding-inline-end: 11px;
+    text-wrap: wrap;
   }
 
   .section__dialog-window {
-    padding: 30px;
-    padding-inline-start: 7px;
+    padding: 28px 30px;
+  }
+
+  .section__dialog-content {
+    margin-inline-start: 8px;
   }
 
   .section__dialog-button {

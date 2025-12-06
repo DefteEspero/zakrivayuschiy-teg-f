@@ -97,17 +97,15 @@
 }
 
 .section__sprint-card:nth-of-type(2) .section__sprint-picture {
-  filter: saturate(30%);
+  filter: contrast(130%);
 }
 
 .section__sprint-card:nth-of-type(3) .section__sprint-picture {
-  filter: contrast(200%);
-  filter: saturate(200%);
-  filter: drop-shadow(200%);
+  filter: saturate(30%) invert(1) sepia(140%);
 }
 
 .section__sprint-card:nth-of-type(4) .section__sprint-picture {
-  filter: hue-rotate(30deg);
+  filter: hue-rotate(30deg) drop-shadow(2);
 }
 
 .section__sprint-card:nth-of-type(5) .section__sprint-picture {
@@ -119,11 +117,11 @@
 }
 
 .section__sprint-card:nth-of-type(7) .section__sprint-picture {
-  filter: blur(0.3rem);
+  filter: blur(0.3rem) brightness(1.2) hue-rotate(210deg);
 }
 
 .section__sprint-card:nth-of-type(8) .section__sprint-picture {
-  filter: hue-rotate(-280deg) blur(0.2rem);
+  filter: hue-rotate(-280deg) blur(0.05rem);
 }
 
 /* кнопки */
@@ -259,7 +257,7 @@
 .section__dialog-image {
   inline-size: 39px;
   block-size: 39px;
-  margin-block-start: 10px; 
+  margin-block-start: 10px;
 }
 
 .section__dialog-text {
