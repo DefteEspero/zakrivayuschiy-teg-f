@@ -165,7 +165,7 @@
   padding: 11px 37px;
   border: var(--block-border);
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--text-color); 
   transition: box-shadow 0.3s ease;
 }
 

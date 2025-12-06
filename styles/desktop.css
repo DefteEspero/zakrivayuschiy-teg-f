@@ -5,6 +5,8 @@
     margin-inline: var(--block-offsetX);
   }
 
+  /* блок с контентом */
+
   .section__sprint-card {
     width: var(--block-width);
     margin-inline: var(--block-offsetX);
@@ -29,6 +31,8 @@
   .card__button {
     gap: 5px;
   }
+
+  /* кнопка в футере */
 
   .footer__button {
     gap: 8px;
