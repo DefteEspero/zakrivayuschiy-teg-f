@@ -12,14 +12,14 @@
     linear-gradient(to bottom, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
   /* размер блоков */
   --block-width: clamp(320px, 50vw, 700px);
-  --block-ofsetX: auto;
-  --block-ofsetY: 0 50px;
+  --block-offsetX: auto;
+  --block-offsetY: 0 50px;
   --block-border: solid 2px #000;
   /* содержимое внутри блока */
   --block-title-padding: 4px 10px;
   --button-box-shadow: 2px 2px 0.5px #000;
   /* переменные для хэдера */
-  --header-ofsetY: 100px;
+  --header-offsetY: 100px;
   --header-padding: clamp(122px, 100vh, 130px) 0;
   --header-title-font-size: clamp(3rem, 2.696rem + 1.518vw, 4.063rem);
   --header-subtitle-font-size: clamp(0.875rem, 0.714rem + 0.804vw, 1.438rem);
@@ -29,6 +29,8 @@
   --text-color: #000;
   --button-bg-aimation: var(--text-color);
   --button-text-animation: var(--bg-color);
+  /*переменная для цвета обводки */
+  --lebele-text-stroke-color: #fff;
   /* переменные для анимаций */
   --contour-color: #000000;
   --animation-fill-color: #ff0000;

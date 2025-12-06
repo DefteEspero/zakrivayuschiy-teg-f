@@ -2,12 +2,12 @@
 
   .header {
     max-width: var(--block-width);
-    margin-inline: var(--block-ofsetX);
+    margin-inline: var(--block-offsetX);
   }
 
   .section__sprint-card {
     width: var(--block-width);
-    margin-inline: var(--block-ofsetX);
+    margin-inline: var(--block-offsetX);
   }
 
   .section__sprint-image-label {
@@ -52,5 +52,5 @@
 
   .section__dialog-button {
     padding: 8px 128.5px;
-  } 
+  }
 }
