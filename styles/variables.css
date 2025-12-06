@@ -1,1 +1,38 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+
+  /* шрифты */
+  --font-Inter: 'Inter', sans-serif;
+  --font-PressStart2P: 'PressStart2P', sans-serif;
+  /* задний фон */
+  --bg-gradient:
+    repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0,#d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(to bottom, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
+  /* размер блоков */
+  --block-width: clamp(320px, 48.7vw, 700px);
+  --block-height: clamp(320px, 100vh, 370px);
+  --block-ofsetX: auto;
+  --block-ofsetY: 0 50px;
+  --block-border: solid 2px #000;
+  /* содержимое внутри блока */
+  --block-title-padding: 4px 10px;
+  --button-box-shadow: 2px 2px 0.5px #000;
+  /* переменные для хэдера */
+  --header-ofsetY: 100px;
+  --header-padding: clamp(122px, 100vh, 130px) 0;
+  --header-title-font-size: clamp(3rem, 2.696rem + 1.518vw, 4.063rem);
+  --header-subtitle-font-size: clamp(0.875rem, 0.714rem + 0.804vw, 1.438rem);
+  --header-subtitle-ofset-top: 20px;
+  /* основыне переменные цветов */
+  --bg-color: #fff;
+  --text-color: #000;
+  --button-bg-aimation: var(--text-color);
+  --button-text-animation: var(--bg-color);
+  /* переменные для анимаций */
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+  /* модальное окно */
+  --dialog-width: clamp(341px, 50vw ,353px);
+}   

@@ -1,0 +1,51 @@
+@media (320px <= width <= 768px)  {
+
+  .header {
+    width: 100%;
+    padding-block: 120px;
+  }
+
+  .section__sprint-card {
+    width: 100%;
+  }
+
+  .section__sprint-image-label {
+    top: 25px;
+    right: 25px;
+  }
+
+  .card__button {
+    gap: 5px;
+  }
+
+  .footer__button {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 17px 20px;
+  }
+
+  .footer__button img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .dialog {
+    padding: 0;
+  }
+
+  .section__sprint-text {
+    word-spacing: 3.1px;
+    margin: 23px 25px 25px 25px;
+    padding-inline-end: 11px;
+  }
+
+  .section__dialog-window {
+    padding: 30px;
+    padding-inline-start: 7px;
+  }
+
+  .section__dialog-button {
+    padding: 10.5px 112.5px;
+  }
+}

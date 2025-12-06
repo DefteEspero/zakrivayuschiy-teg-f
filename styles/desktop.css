@@ -1,0 +1,54 @@
+@media (width >= 1024px) {
+
+  .header {
+    width: var(--block-width);
+    margin-inline: var(--block-ofsetX);
+  }
+
+  .section__sprint-card {
+    width: var(--block-width);
+    margin-inline: var(--block-ofsetX);
+  }
+
+  .section__sprint-image-label {
+    top: 25px;
+    right: 25px;
+  }
+
+  .section__sprint-text {
+    text-wrap: wrap;
+    white-space: pre-line;
+    margin: 0 0 0 24px;
+    word-spacing: 2px;
+  }
+
+  .section__sprint-text:last-of-type {
+    margin-block: 6px 0;
+  }
+
+  .card__button {
+    gap: 5px;
+  }
+
+  .footer__button {
+    gap: 8px;
+    padding: 17px 20px;
+  }
+
+  .footer__button img {
+    width: 21px;
+    height: 21px;
+  }
+
+  .dialog {
+    padding: 0;
+  }
+  
+  .section__dialog-window {
+    padding: 30px;
+  }
+
+  .section__dialog-button {
+    padding: 8px 128.5px;
+  } 
+}
