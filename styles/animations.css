@@ -10,10 +10,15 @@
 
 */
 
+@media (prefers-reduced-motion: reduce) {
+  .like-icon.is-liked, .like-icon.is-liked .sparks {
+    animation: none;
+  }
+}
+
 .like-icon {
   width: 39px;
   height: 36px;
-  cursor: pointer;
   transform-origin: center;
   transform-box: fill-box;
 }
