@@ -32,14 +32,14 @@
     gap: 5px;
   }
 
-  /* кнопка в футере */
+  /* кнопка в конце секции */
 
-  .footer__button {
+  .save-button {
     gap: 8px;
     padding: 17px 20px;
   }
 
-  .footer__button .footer-icon {
+  .save-button .save-icon {
     width: 21px;
     height: 21px;
   }

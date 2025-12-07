@@ -34,6 +34,8 @@
   /* переменные для анимаций */
   --contour-color: #000000;
   --animation-fill-color: #ff0000;
+  /* svg иконка дискеты */
+  --floppy-fill-color: #000;
   /* модальное окно */
   --dialog-width: clamp(341px, 50vw ,353px);
 }   

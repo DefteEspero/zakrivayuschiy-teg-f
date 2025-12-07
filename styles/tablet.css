@@ -1,26 +1,31 @@
-@media (320px <= width <= 768px) {
+@media (768px < width < 1024px) {
 
   .header {
-    width: 100%;
-    padding-block: 120px;
+    max-width: var(--block-width);
+    margin-inline: var(--block-offsetX);
   }
 
   /* блок с контентом */
 
   .section__sprint-card {
-    width: 100%;
-  }
-
-  .section__sprint-text {
-    word-spacing: 3.1px;
-    margin: 23px 25px 25px 25px;
-    padding-inline-end: 11px;
-    text-wrap: wrap;
+    width: var(--block-width);
+    margin-inline: var(--block-offsetX);
   }
 
   .section__sprint-image-label {
     top: 25px;
     right: 25px;
+  }
+
+  .section__sprint-text {
+    text-wrap: wrap;
+    white-space: pre-line;
+    margin: 0 24px;
+    word-spacing: 2px;
+  }
+
+  .section__sprint-text:last-of-type {
+    margin-block: 6px 0;
   }
 
   .card__button {
@@ -30,15 +35,13 @@
   /* кнопка в конце секции */
 
   .save-button {
-    display: flex;
-    flex-direction: column;
     gap: 8px;
     padding: 17px 20px;
   }
 
   .save-button .save-icon {
-    width: 28px;
-    height: 28px;
+    width: 21px;
+    height: 21px;
   }
 
   /* открываюшееся окно */
@@ -48,14 +51,10 @@
   }
 
   .section__dialog-window {
-    padding: 28px 30px;
-  }
-
-  .section__dialog-content {
-    margin-inline-start: 8px;
+    padding: 30px;
   }
 
   .section__dialog-button {
-    padding: 10.5px 112.5px;
+    padding: 8px 128.5px;
   }
 }

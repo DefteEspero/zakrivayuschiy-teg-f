@@ -11,7 +11,7 @@
 */
 
 @media (prefers-reduced-motion: reduce) {
-  .like-icon.is-liked, .like-icon.is-liked .sparks {
+  .like-icon.is-liked .heart, .like-icon.is-liked .sparks {
     animation: none;
   }
 }
