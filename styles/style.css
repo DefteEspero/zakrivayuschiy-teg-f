@@ -10,6 +10,20 @@
 
 */
 
+@supports (font-variation-settings: normal) {
+  .page {
+    font-variation-settings: 'wght' 410;
+  }
+
+  .section__sprint-title {
+    font-variation-settings: 'wght' 715;
+  }
+
+  .section__sprint-text {
+    font-variation-settings: 'wght' 415;
+  }
+}
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -32,11 +46,11 @@
   font-family: var(--font-PressStart2P);
 }
 
-.header__title {
+.header__decorative-title {
   font-size: var(--header-title-font-size);
 }
 
-.header__subtitle {
+.header__title {
   font-size: var(--header-subtitle-font-size);
   margin-block-start: var(--header-subtitle-ofset-top);
   text-transform: uppercase;
@@ -65,16 +79,6 @@
   margin-block: 9px 0;
 }
 
-@supports (font-variation-settings: normal) {
-  .section__sprint-title {
-    font-variation-settings: 'wght' 715;
-  }
-
-  .section__sprint-text {
-    font-variation-settings: 'wght' 415;
-  }
-}
-
 /* изобраджения */
 
 .section__sprint-picture {
@@ -84,19 +88,25 @@
 
 .section__sprint-image-label {
   position: absolute;
+  top: 25px;
+  right: 25px;
   font-family: var(--font-PressStart2P);
   font-size: 14px;
-  -webkit-text-stroke: 1px var(--lebele-text-stroke-color);
   opacity: 0.5;
   mix-blend-mode: hard-light;
   display: block;
+  text-shadow: 
+    1px 0 var(--label-text-stroke-color),
+    -1px 0 var(--label-text-stroke-color),
+    0 1px var(--label-text-stroke-color),
+    0 -1px var(--label-text-stroke-color);
 }
 
-@supports (text-stroke: 1px var(--lebele-text-stroke-color)) or (-webkit-text-stroke: 1px var(--lebele-text-stroke-color)) {
+@supports (text-stroke: 1px var(--label-text-stroke-color)) or (-webkit-text-stroke: 1px var(--label-text-stroke-color)) {
   .section__sprint-image-label {
-    text-stroke: 1px var(--lebele-text-stroke-color);
-    -webkit-text-stroke: 1px var(--lebele-text-stroke-color);
-    text-shadow: 1px 1px 1px var(--text-color);
+    text-stroke: 1px var(--label-text-stroke-color);
+    -webkit-text-stroke: 1px var(--label-text-stroke-color);
+    text-shadow: none;
   }
 }
 
@@ -262,6 +272,7 @@
 }
 
 .dialog::backdrop {
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
 } 
 
@@ -284,13 +295,9 @@
   margin-block-start: 10px;
 }
 
-.section__dialog-text {
-  text-wrap: pre-wrap;
-  white-space: break-word;
-}
-
 .section__dialog-button {
   display: inline-block;
+  margin-block-start: 30px;
   background-color: var(--bg-color);
   border: var(--block-border);
 }

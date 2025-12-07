@@ -5,6 +5,7 @@
   /* шрифты */
   --font-Inter: 'Inter', sans-serif;
   --font-PressStart2P: 'PressStart2P', sans-serif;
+
   /* задний фон */
   --bg-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
@@ -21,7 +22,7 @@
   /* переменные для хэдера */
   --header-offsetY: 100px;
   --header-padding: clamp(122px, 100vh, 130px) 0;
-  --header-title-font-size: clamp(3rem, 2.696rem + 1.518vw, 4.063rem);
+  --header-title-font-size: clamp(3.0625rem, 2.7768rem + 1.4286vw, 4.0625rem);;
   --header-subtitle-font-size: clamp(0.875rem, 0.714rem + 0.804vw, 1.438rem);
   --header-subtitle-ofset-top: 20px;
   /* основыне переменные цветов */
@@ -30,12 +31,12 @@
   --button-bg-aimation: var(--text-color);
   --button-text-animation: var(--bg-color);
   /*переменная для цвета обводки */
-  --lebele-text-stroke-color: #fff;
+  --label-text-stroke-color: #fff;
   /* переменные для анимаций */
   --contour-color: #000000;
   --animation-fill-color: #ff0000;
   /* svg иконка дискеты */
   --floppy-fill-color: #000;
   /* модальное окно */
-  --dialog-width: clamp(341px, 50vw ,353px);
-}   
+  --dialog-width: clamp(341px, 50vw, 353px);
+}

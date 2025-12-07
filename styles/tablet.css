@@ -12,16 +12,9 @@
     margin-inline: var(--block-offsetX);
   }
 
-  .section__sprint-image-label {
-    top: 25px;
-    right: 25px;
-  }
-
   .section__sprint-text {
     text-wrap: wrap;
-    white-space: pre-line;
     margin: 0 24px;
-    word-spacing: 2px;
   }
 
   .section__sprint-text:last-of-type {

@@ -12,20 +12,13 @@
     margin-inline: var(--block-offsetX);
   }
 
-  .section__sprint-image-label {
-    top: 25px;
-    right: 25px;
-  }
-
   .section__sprint-text {
     text-wrap: wrap;
-    white-space: pre-line;
-    margin: 0 0 0 24px;
-    word-spacing: 2px;
+    margin: 20px 0 25px 24px;
   }
 
   .section__sprint-text:last-of-type {
-    margin-block: 6px 0;
+    margin-block: 17px 0;
   }
 
   .card__button {
