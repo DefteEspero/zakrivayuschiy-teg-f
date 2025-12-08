@@ -12,7 +12,7 @@
 
 @supports (font-variation-settings: normal) {
   .page {
-    font-variation-settings: 'wght' 410;
+    font-variation-settings: var(--font-variation-waight);
   }
 
   .section__sprint-title {
@@ -115,35 +115,35 @@
   block-size: 100%;
 }
 
-.section__sprint-card:nth-of-type(1) .section__sprint-picture {
-  filter: contrast(100%);
-}
+.image-filter-none {
+  filter: none;
+} 
 
-.section__sprint-card:nth-of-type(2) .section__sprint-picture {
+.image-filter-saturate {
   filter: saturate(30%);
 }
 
-.section__sprint-card:nth-of-type(3) .section__sprint-picture {
+.image-filter-contrast-rotate {
   filter: hue-rotate(-10deg) contrast(200%);
 }
 
-.section__sprint-card:nth-of-type(4) .section__sprint-picture {
+.image-filter-rotate {
   filter: hue-rotate(30deg);
 }
 
-.section__sprint-card:nth-of-type(5) .section__sprint-picture {
+.image-filter-invert {
   filter: invert(1);
 }
 
-.section__sprint-card:nth-of-type(6) .section__sprint-picture {
+.image-filter-sepia {
   filter: sepia(100%);
 }
 
-.section__sprint-card:nth-of-type(7) .section__sprint-picture {
+.image-filter-blur {
   filter: blur(0.3rem);
 }
 
-.section__sprint-card:nth-of-type(8) .section__sprint-picture {
+.image-filter-rotate-blur {
   filter: hue-rotate(-280deg) blur(0.05rem);
 }
 
@@ -161,6 +161,7 @@
   padding: 0;
   background: transparent;
   cursor: pointer;
+  transition: border 0.3s ease;
 }
 
 .card__like-button {
@@ -177,7 +178,7 @@
   background-color: transparent;
 }
 
-.button__text {
+.button {
   position: relative;
   line-height: 90%;
   font-size: 14px;
@@ -189,11 +190,7 @@
   transition: box-shadow 0.3s ease;
 }
 
-.card__icon-button:focus-visible {
-  border: var(--block-border);
-}
-
-.button__text::before, .save-button::before {
+.button::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -203,7 +200,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.footer__text-animation, .button__text-animated {
+.button__text-animated {
   position: relative;
   z-index: 1;
   display: inline-flex;
@@ -211,13 +208,17 @@
   mix-blend-mode: difference;
 }
 
-.button__text:hover::before, .save-button:hover::before {
+.button:hover::before {
   transform: scaleX(1);
 }
 
-.card__like-button:focus-visible .button__text, .save-button:focus-visible {
+.button:focus-visible {
   box-shadow: var(--button-box-shadow);
   outline: none;
+}
+
+.card__icon-button:focus-visible {
+  box-shadow: var(--button-box-shadow);
 }
 
 /* кнопка в конце секции */
@@ -272,7 +273,6 @@
 }
 
 .dialog::backdrop {
-  width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
 } 
 

@@ -4,8 +4,8 @@
 
   /* шрифты */
   --font-Inter: 'Inter', sans-serif;
-  --font-PressStart2P: 'PressStart2P', sans-serif;
-
+  --font-PressStart2P: 'PressStart2P', fantasy;
+  --font-variation-waight: 'wght' 410;
   /* задний фон */
   --bg-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
