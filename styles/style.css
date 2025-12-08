@@ -297,7 +297,6 @@
 
 .section__dialog-button {
   display: inline-block;
-  margin-block-start: 30px;
   background-color: var(--bg-color);
   border: var(--block-border);
 }
