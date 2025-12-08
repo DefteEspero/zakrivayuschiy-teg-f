@@ -281,26 +281,26 @@
   background-color: rgba(0, 0, 0, 0.75);
 } 
 
-.section__dialog-window {
+.form__dialog-window {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
 }
 
-.section__dialog-content {
+.form__dialog-content {
   display: grid;
   gap: 20px;
   grid-template-columns: min-content 1fr;
 }
 
-.section__dialog-image {
+.form__dialog-image {
   inline-size: 39px;
   block-size: 39px;
   margin-block-start: 10px;
 }
 
-.section__dialog-button {
+.form__dialog-button {
   display: inline-block;
   background-color: var(--bg-color);
   border: var(--block-border);
