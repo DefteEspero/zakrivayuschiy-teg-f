@@ -13,12 +13,11 @@
   }
 
   .section__sprint-text {
-    text-wrap: wrap;
-    margin: 20px 0 25px 24px;
+    margin: 21px 0 25px 25px;
   }
 
   .section__sprint-text:last-of-type {
-    margin-block: 17px 0;
+    margin-block: 5px 0;
   }
 
   .card__button {
@@ -41,14 +40,11 @@
 
   .dialog {
     padding: 0;
+    width: var(--dialog-width);
   }
   
   .form__dialog-window {
     padding: 30px 20px;
-  }
-
-  .form__dialog-text {
-    
   }
 
   .form__dialog-button {

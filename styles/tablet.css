@@ -41,6 +41,7 @@
 
   .dialog {
     padding: 0;
+    width: var(--dialog-width);
   }
 
   .form__dialog-window {

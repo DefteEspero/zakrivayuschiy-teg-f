@@ -1,5 +1,5 @@
 @media (320px <= width <= 769px) {
-
+  
   @media (width < 375px) {
     .header__decorative-title {
       font-size: var(--header-title-font-size-mobile);
@@ -17,9 +17,14 @@
   }
 
   .section__sprint-text {
-    margin: 23px 25px 25px 25px;
+    margin: 25px 26px 25px 25px;
     padding-inline-end: 11px;
     text-wrap: wrap;
+  }
+
+  .section__sprint-text:last-of-type {
+    margin-block: 25px 0;
+    margin-block-start: 1px;
   }
 
   .card__button {
