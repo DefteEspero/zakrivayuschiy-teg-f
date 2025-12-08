@@ -1,6 +1,6 @@
 @supports (font-variation-settings: normal) {
   .page {
-    font-variation-settings: var(--font-variation-waight);
+    font-variation-settings: var(--font-variation-waight, 410);
   }
 
   .section__sprint-title {
@@ -16,8 +16,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: var(--bg-gradient);
-  background-attachment: fixed;
-  background-size: cover;
+  background: fixed cover;
   font-family: var(--font-Inter);
   align-items: center;
 }
