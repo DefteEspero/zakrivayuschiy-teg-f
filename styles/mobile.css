@@ -46,15 +46,15 @@
     padding: 0;
   }
 
-  .section__dialog-window {
+  .form__dialog-window {
     padding: 28px 20px;
   }
 
-  .section__dialog-content {
+  .form__dialog-content {
     margin-inline-start: 8px;
   }
 
-  .section__dialog-button {
+  .form__dialog-button {
     padding: 10.5px 112.5px;
   }
 }

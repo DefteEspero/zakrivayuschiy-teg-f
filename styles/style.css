@@ -204,7 +204,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.button__text { 
+.button__text {
   color: var(--bg-color);
   mix-blend-mode: difference;
 }

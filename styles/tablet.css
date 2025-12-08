@@ -43,11 +43,11 @@
     padding: 0;
   }
 
-  .section__dialog-window {
+  .form__dialog-window {
     padding: 30px;
   }
 
-  .section__dialog-button {
+  .form__dialog-button {
     padding: 8px 128.5px;
   }
 }

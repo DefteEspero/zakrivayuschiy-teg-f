@@ -38,6 +38,4 @@
   --animation-fill-color: #ff0000;
   /* svg иконка дискеты */
   --floppy-fill-color: #fff;
-  /* модальное окно */
-  --dialog-width: clamp(341px, 50vw, 353px);
 }
