@@ -20,7 +20,7 @@
   }
 
   .section__sprint-text {
-    font-variation-settings: 'wght' 415;
+    font-variation-settings: 'wght' 410;
   }
 }
 
@@ -84,6 +84,8 @@
 .section__sprint-picture {
   position: relative;
   display: block;
+  border-bottom: var(--block-border);
+  border-top: var(--block-border);
 }
 
 .section__sprint-image-label {
@@ -111,6 +113,7 @@
 }
 
 .section__sprint-image {
+  display: block;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -161,6 +164,7 @@
   padding: 0;
   background: transparent;
   cursor: pointer;
+  outline: transparent;
   transition: border 0.3s ease;
 }
 
@@ -200,11 +204,8 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.button__text-animated {
-  position: relative;
-  z-index: 1;
-  display: inline-flex;
-  color: var(--text-color);
+.button__text { 
+  color: var(--bg-color);
   mix-blend-mode: difference;
 }
 
@@ -218,7 +219,8 @@
 }
 
 .card__icon-button:focus-visible {
-  box-shadow: var(--button-box-shadow);
+  border: var(--block-border);  
+  border-radius: 0px;
 }
 
 /* кнопка в конце секции */
@@ -231,10 +233,14 @@
   line-height: 90%;
 }
 
-.floppy-contour {
-  width: 21px;
+.save-icon {
   fill: var(--floppy-fill-color);
   mix-blend-mode: difference;
+}
+
+.save-text {
+  mix-blend-mode: difference;
+  color: var(--bg-color);
 }
 
 .save-button {
@@ -261,7 +267,6 @@
   color: var(--text-color);
   border: var(--block-border);
   background-color: var(--bg-color);
-  inline-size: var(--dialog-width);
 }
 
 .dialog:not([open]) {

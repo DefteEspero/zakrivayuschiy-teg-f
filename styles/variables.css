@@ -22,7 +22,8 @@
   /* переменные для хэдера */
   --header-offsetY: 100px;
   --header-padding: clamp(122px, 100vh, 130px) 0;
-  --header-title-font-size: clamp(3.0625rem, 2.7768rem + 1.4286vw, 4.0625rem);;
+  --header-title-font-size: clamp(3.0625rem, 2.7768rem + 1.4286vw, 4.0625rem);
+  --header-title-font-size-mobile: clamp(2.813rem, 1.722rem + 5.455vi, 3rem);
   --header-subtitle-font-size: clamp(0.875rem, 0.714rem + 0.804vw, 1.438rem);
   --header-subtitle-ofset-top: 20px;
   /* основыне переменные цветов */
@@ -36,7 +37,7 @@
   --contour-color: #000000;
   --animation-fill-color: #ff0000;
   /* svg иконка дискеты */
-  --floppy-fill-color: #000;
+  --floppy-fill-color: #fff;
   /* модальное окно */
   --dialog-width: clamp(341px, 50vw, 353px);
 }

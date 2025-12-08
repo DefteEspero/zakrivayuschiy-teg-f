@@ -21,6 +21,8 @@
   height: 36px;
   transform-origin: center;
   transform-box: fill-box;
+  align-items: center;
+  margin: auto;
 }
 
 .like-icon .contour {
