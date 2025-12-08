@@ -13,8 +13,7 @@
   }
 
   .section__sprint-text {
-    text-wrap: wrap;
-    margin: 0 24px;
+    margin: 25px 24px;
   }
 
   .section__sprint-text:last-of-type {
@@ -45,7 +44,7 @@
   }
 
   .form__dialog-window {
-    padding: 30px;
+    padding: 30px 20px;
   }
 
   .form__dialog-button {
