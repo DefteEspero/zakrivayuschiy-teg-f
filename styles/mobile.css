@@ -52,14 +52,16 @@
   }
 
   .form__dialog-window {
-    padding: 28px 20px;
+    padding: 28px 0px 27px 0px;
   }
 
   .form__dialog-content {
-    margin-inline-start: 8px;
+    padding-inline: var(--dialog-content-padding);
+    margin-inline-start: 2px;
+    margin-block-start: 2px;
   }
-
+  
   .form__dialog-button {
-    padding: 10.5px 112.5px;
+    padding: 10.5px 113.5px;
   }
 }

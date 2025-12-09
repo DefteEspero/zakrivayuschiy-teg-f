@@ -16,7 +16,8 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: var(--bg-gradient);
-  background: fixed cover;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: var(--font-Inter);
   align-items: center;
 }
@@ -147,7 +148,7 @@
 }
 
 .card__icon-button {
-  border: none;
+  border: transparent;
   padding: 0;
   background: transparent;
   cursor: pointer;
@@ -156,7 +157,7 @@
 }
 
 .card__like-button {
-  border: none;
+  border: transparent;
   padding: 0;
   background: transparent;
   cursor: pointer;
@@ -288,6 +289,7 @@
 }
 
 .form__dialog-button {
+  margin: auto;
   display: inline-block;
   background-color: var(--bg-color);
   border: var(--block-border);

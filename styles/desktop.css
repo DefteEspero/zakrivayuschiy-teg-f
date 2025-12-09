@@ -44,10 +44,12 @@
   }
   
   .form__dialog-window {
+    margin-inline: 9px 1px;
     padding: 30px 20px;
   }
 
   .form__dialog-button {
-    padding: 8px 128.5px;
+    margin-inline-end: 6px;
+    padding: 10.5px 130.5px;
   }
 }
